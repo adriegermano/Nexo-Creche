@@ -53,3 +53,27 @@ body{
     padding: 10px;
     width: 22px;
 }
+
+.child-card{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.status-badges {
+    display: flex;
+    flex-direction: row; /* coloca os badges lado a lado */
+    gap: 10px;
+    align-items: center;
+}
+
+.badge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+    border-radius: 12px;
+    padding: 10px 14px;
+}
